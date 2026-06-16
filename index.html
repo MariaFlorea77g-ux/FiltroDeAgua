@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filtros de Agua</title>
+
     <style>
+        .contenedor {
+            background-color: lightblue;
+            padding: 15px;
+            border: 2px solid pink;
+            margin: 20px;
+        }
+
         body {
             background-color: #E3F2FD;
             font-family: Arial, sans-serif;
@@ -12,6 +20,7 @@
             color: #0D47A1;
         }
 
+        /* Estilo del Menú de Navegación */
         nav {
             background-color: #0277BD;
             padding: 12px;
@@ -44,26 +53,26 @@
         h1 {
             text-align: center;
             font-size: 40px;
-            color: white;
-            background-color: #F8C8DC;
-            padding: 15px;
-            margin: 0;
+            color: #01579B;
         }
 
         h2 {
             font-size: 28px;
             color: #0277BD;
-            margin: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         h3, h4 {
-            margin: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         p {
             font-size: 18px;
             line-height: 1.6;
-            margin: 0 20px 20px 20px;
+            margin-left: 20px;
+            margin-right: 20px;
             text-align: justify;
         }
 
@@ -72,15 +81,12 @@
             color: #D84315;
             font-weight: bold;
             text-align: center;
-            margin: 30px 20px;
         }
 
         img {
-            max-width: 300px;
-            height: auto;
+            width: 300px;
             border-radius: 10px;
-            margin: 10px auto;
-            display: block;
+            margin: 10px;
         }
 
         a {
@@ -89,8 +95,7 @@
             padding: 10px 15px;
             text-decoration: none;
             border-radius: 5px;
-            margin: 0 20px 30px 20px;
-            display: inline-block;
+            margin-left: 20px;
         }
 
         a:hover {
@@ -106,28 +111,27 @@
 
         th, td {
             text-align: left;
-            padding: 12px;
+            padding: 10px;
             border: 1px dashed red;
-            font-size: 18px;
         }
 
         ol, ul {
-            margin: 0 40px 20px 40px;
+            margin-left: 40px;
+            margin-right: 20px;
             font-size: 18px;
             line-height: 1.6;
         }
 
         audio, video {
-            margin: 10px auto 30px auto;
+            margin: 10px auto;
             display: block;
-            max-width: 90%;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- 📌 Menú de navegación -->
+    <!-- 📌 MENÚ DE NAVEGACIÓN -->
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -139,16 +143,20 @@
         </ul>
     </nav>
 
-    <div id="inicio">
-        <h1>FILTROS DE AGUA</h1>
+    <div id="inicio" style="background-color:pink; padding:10px; text-align:center;">
+        <h1 style="color:white; margin:0;">FILTROS DE AGUA</h1>
     </div>
 
-    <img src="images (60).jpeg" alt="Imagen de filtro de agua" style="width:150px; height:250px;">
+    <center>
+        <img src="img/images (60).jpeg" alt="Imagen de filtro de agua" style="width:150px; height:250px;">
+    </center>
 
-    <audio controls loop>
-        <source src="intensity-by-audio-club-intensity-by-audio-club-343637.mp3" type="audio/mpeg">
-        Tu navegador no soporta la reproducción de audio.
-    
+    <center>
+        <audio controls loop>
+            <source src="img/intensity-by-audio-club-intensity-by-audio-club-343637.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        
+    </center>
 
     <h2 id="definicion">¿Qué es un filtro de agua?</h2>
     <p>
@@ -171,9 +179,9 @@
     <h3 id="tipos">Tipos de filtros de agua</h3>
     <table>
         <tr>
-            <th bgcolor="#F8C8DC">Tipo</th>
-            <th bgcolor="#F8C8DC">Función</th>
-            <th bgcolor="#F8C8DC">Durabilidad</th>
+            <th bgcolor="pink">Tipo</th>
+            <th bgcolor="pink">Función</th>
+            <th bgcolor="pink">Durabilidad</th>
         </tr>
         <tr>
             <td>Luz ultravioleta</td>
@@ -192,7 +200,9 @@
         </tr>
     </table>
 
-    <img src="images (61).jpeg" alt="Purificación de agua">
+    <center>
+        <img src="img/images (61).jpeg" alt="Purificación de agua">
+    </center>
 
     <h4 id="casero">Elaboración de un filtro de agua casero</h4>
     <ul type="circle">
@@ -204,10 +214,12 @@
     </ul>
 
     <h4>Funcionamiento del filtro de carbón activado</h4>
-    <video width="320" height="240" controls>
-        <source src="a409cde90fba8ffdef830383ca77242d.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
-    </video>
+    <center>
+        <video width="320" height="240" controls>
+            <source src="img/a409cde90fba8ffdef830383ca77242d.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </center>
 
     <p class="importante">
         El acceso a agua limpia es fundamental para una buena calidad de vida.
@@ -217,7 +229,9 @@
     <p>
         Haz clic en el siguiente enlace para ampliar conocimientos:
     </p>
+    <br>
     <a href="https://www.bbva.mx/educacion-financiera/sustentabilidad/que-es-un-filtro-de-agua.html">Más sobre filtros de agua</a>
+    <br><br>
 
 </body>
 </html>
