@@ -6,13 +6,6 @@
     <title>Filtros de Agua</title>
 
     <style>
-        .contenedor {
-            background-color: lightblue;
-            padding: 15px;
-            border: 2px solid pink;
-            margin: 20px;
-        }
-
         body {
             background-color: #E3F2FD;
             font-family: Arial, sans-serif;
@@ -20,7 +13,6 @@
             color: #0D47A1;
         }
 
-        /* Estilo del Menú de Navegación */
         nav {
             background-color: #0277BD;
             padding: 12px;
@@ -84,9 +76,12 @@
         }
 
         img {
-            width: 300px;
+            width: auto;
+            max-width: 300px;
+            height: auto;
             border-radius: 10px;
-            margin: 10px;
+            margin: 10px auto;
+            display: block;
         }
 
         a {
@@ -96,6 +91,7 @@
             text-decoration: none;
             border-radius: 5px;
             margin-left: 20px;
+            display: inline-block;
         }
 
         a:hover {
@@ -131,7 +127,7 @@
 
 <body>
 
-    <!-- 📌 MENÚ DE NAVEGACIÓN -->
+    <!-- MENÚ DE NAVEGACIÓN -->
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -147,16 +143,13 @@
         <h1 style="color:white; margin:0;">FILTROS DE AGUA</h1>
     </div>
 
-    <center>
-        <img src="img/images (60).jpeg" alt="Imagen de filtro de agua" style="width:150px; height:250px;">
-    </center>
+    <!-- RUTAS SIN CARPETA IMG -->
+    <img src="images (60).jpeg" alt="Imagen de filtro de agua" style="width:150px; height:250px;">
 
-    <center>
-        <audio controls loop>
-            <source src="img/intensity-by-audio-club-intensity-by-audio-club-343637.mp3" type="audio/mpeg">
-            Tu navegador no soporta audio.
-        
-    </center>
+    <audio controls loop>
+        <source src="intensity-by-audio-club-intensity-by-audio-club-343637.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    
 
     <h2 id="definicion">¿Qué es un filtro de agua?</h2>
     <p>
@@ -200,9 +193,7 @@
         </tr>
     </table>
 
-    <center>
-        <img src="img/images (61).jpeg" alt="Purificación de agua">
-    </center>
+    <img src="images (61).jpeg" alt="Purificación de agua">
 
     <h4 id="casero">Elaboración de un filtro de agua casero</h4>
     <ul type="circle">
@@ -214,12 +205,10 @@
     </ul>
 
     <h4>Funcionamiento del filtro de carbón activado</h4>
-    <center>
-        <video width="320" height="240" controls>
-            <source src="img/a409cde90fba8ffdef830383ca77242d.mp4" type="video/mp4">
-            Tu navegador no soporta el video.
-        </video>
-    </center>
+    <video width="320" height="240" controls>
+        <source src="a409cde90fba8ffdef830383ca77242d.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
 
     <p class="importante">
         El acceso a agua limpia es fundamental para una buena calidad de vida.
@@ -235,4 +224,3 @@
 
 </body>
 </html>
-
