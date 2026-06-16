@@ -1,118 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtros de Agua</title>
+
     <style>
         .contenedor {
-            background-color:lightblue;
-            padding:15px;
-            border:2px solid pink;
-            margin:20px;
+            background-color: lightblue;
+            padding: 15px;
+            border: 2px solid pink;
+            margin: 20px;
         }
-    </style> 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filtros de Agua</title>
 
-<style>
-    body{
-        background-color:#E3F2FD;
-        font-family: Arial, sans-serif;
-        margin:20px;
-        color:#0D47A1;
-    }
+        body {
+            background-color: #E3F2FD;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #0D47A1;
+        }
 
-    h1{
-        text-align:center;
-        font-size:40px;
-        color:#01579B;
-    }
+        /* Estilo del Menú de Navegación */
+        nav {
+            background-color: #0277BD;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
 
-    h2{
-        font-size:28px;
-        color:#0277BD;
-    }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    p{
-        font-size:18px;
-        line-height:1.6;
-    }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
 
-    .importante{
-        font-size:22px;
-        color:#D84315;
-        font-weight:bold;
-    }
+        nav a:hover {
+            background-color: #01579B;
+            transition: 0.3s;
+        }
 
-    img{
-        width:300px;
-        border-radius:10px;
-        margin:10px;
-    }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: #01579B;
+        }
 
-    a{
-        background-color:#0288D1;
-        color:white;
-        padding:10px 15px;
-        text-decoration:none;
-        border-radius:5px;
-    }
+        h2 {
+            font-size: 28px;
+            color: #0277BD;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
 
-    a:hover{
-        background-color:#01579B;
-    }
-</style>
+        h3, h4 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: justify;
+        }
+
+        .importante {
+            font-size: 22px;
+            color: #D84315;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        a {
+            background-color: #0288D1;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            background-color: #01579B;
+        }
+
+        table {
+            border: 3px dashed red;
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border: 1px dashed red;
+        }
+
+        ol, ul {
+            margin-left: 40px;
+            margin-right: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        audio, video {
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-    <div
-    <p
-    align="center"style="background-color:pink;color:white;font-size:40px;">
-    <h1>FILTROS DE AGUA</h1>
-    </div
-    <p style="background-color:blue;color:white;font-size:40px;"></p>
 
-<center>
-    <img src="img/filtro.jpeg"style width: 150px;height=250px"/>
-</center>
-<center>
-<div class="center">
-        <audio controls loop>
-            <source src="img/audio.mp3" type="audio/mpeg">
-    </div
+    <!-- 📌 MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#definicion">¿Qué es?</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#tipos">Tipos</a></li>
+            <li><a href="#casero">Filtro Casero</a></li>
+            <li><a href="#info">Más información</a></li>
+        </ul>
+    </nav>
+
+    <div id="inicio" style="background-color:pink; padding:10px; text-align:center;">
+        <h1 style="color:white; margin:0;">FILTROS DE AGUA</h1>
+    </div>
+
+    <center>
+        <img src="img/images (60).jpeg" alt="Imagen de filtro de agua" style="width:150px; height:250px;">
     </center>
 
-<h2>¿Qué es un filtro de agua?</h2>
+    <center>
+        <audio controls loop>
+            <source src="img/intensity-by-audio-club-intensity-by-audio-club-343637.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        
+    </center>
 
-<p>
-Un filtro de agua es un dispositivo diseñado para retener impurezas físicas, químicas y biológicas. Su función principal es mejorar la calidad, el olor y el sabor del agua, convirtiéndola en una opción más segura y saludable para el consumo humano y las actividades diarias.
-</p>
-<h2>¿Cómo los filtros de agua ayudan a reducir plásticos?</h2>
-<p style="text-align: justify;">
-Cada año generamos más de 300 millones de toneladas de residuos plásticos en todo el mundo. La mayoría no se recicla (más de un 80 %) y unos ocho millones de toneladas acaban en los océanos, según datos de la agencia medioambiental de la ONU. Cada año, se producen cerca de 500.000 millones de botellas plásticas para agua y otras bebidas, la mayoría de las cuales acaban en nuestro entorno como basura. En entidades financieras como BBVA, el plástico es una especie en extinción.
-</p>
+    <h2 id="definicion">¿Qué es un filtro de agua?</h2>
+    <p>
+        Un filtro de agua es un dispositivo diseñado para retener impurezas físicas, químicas y biológicas. Su función principal es mejorar la calidad, el olor y el sabor del agua, convirtiéndola en una opción más segura y saludable para el consumo humano y las actividades diarias. Elimina bacterias, óxido, cloro y otros contaminantes mediante barreras físicas, biológicas o químicas.
+    </p>
 
+    <h2>¿Cómo ayudan a reducir plásticos?</h2>
+    <p>
+        Cada año generamos más de 300 millones de toneladas de residuos plásticos en todo el mundo. La mayoría no se recicla y unos ocho millones de toneladas acaban en los océanos. Al usar filtros, disminuimos drásticamente la compra de agua embotellada, reduciendo así la contaminación y ayudando al medio ambiente.
+    </p>
 
-<h3><p><u><i><b> BENEFICIOS</b></i></u></p></h3>
-<ol type="I" style="text-align: left;">
-   <li>Mejora el sabor y olor del agua.</li>
-   <li>Reduce la presencia de contaminantes.</li>
-   <li>Ayuda a proteger la salud.</li>
-   <li>Disminuye el uso de botellas de plástico</li>
-</ol>
+    <h3 id="beneficios"><u><i><b>BENEFICIOS</b></i></u></h3>
+    <ol type="I">
+        <li>Mejora el sabor y olor del agua.</li>
+        <li>Reduce la presencia de contaminantes y metales pesados.</li>
+        <li>Ayuda a proteger la salud eliminando bacterias y virus.</li>
+        <li>Disminuye el uso de botellas de plástico y ahorra dinero.</li>
+    </ol>
 
-<h3>Tipos de filtros de agua</h3>
-
-<style>
-        table,th,td{
-            border:3px dashed red;
-            border-collapse:collapse;
-        }
-        th,td{
-        text-align:left;
-        padding:10px
-        }
-    </style>
-    <table style="width:100%"
+    <h3 id="tipos">Tipos de filtros de agua</h3>
+    <table>
         <tr>
             <th bgcolor="pink">Tipo</th>
             <th bgcolor="pink">Función</th>
@@ -120,49 +185,54 @@ Cada año generamos más de 300 millones de toneladas de residuos plásticos en 
         </tr>
         <tr>
             <td>Luz ultravioleta</td>
-            <td>Esteriliza el agua eliminando el 99% de microorganismos patógenos bacterias y virus</td>
-            <td>Un año</td>
+            <td>Esteriliza el agua eliminando el 99% de microorganismos patógenos, bacterias y virus.</td>
+            <td>Aproximadamente 1 año</td>
         </tr>
         <tr> 
             <td>Carbón activado</td>
-            <td>Elimina el cloro, los pesticidas y mejora drásticamente el sabor y olor del agua</td>
+            <td>Elimina el cloro, olores, pesticidas y mejora drásticamente el sabor y olor del agua.</td>
             <td>De 2 a 6 meses</td>
         </tr>
         <tr>
             <td>Ósmosis inversa</td>
-            <td>Fuerza el agua a través de una membrana semipermeable que elimina hasta el 99% de sólidos disueltos metales pesados, bacterias y virus</td>
+            <td>Elimina hasta el 99% de sólidos disueltos, metales pesados, bacterias y virus para máxima pureza.</td>
             <td>De 2 a 3 años</td>
-            
         </tr>
     </table>
 
-<center>
-<img src="img/images (61).jpeg" alt="Purificación de agua">
-</center>
-<h4>Elaboración de un filtro de agua casero (carbón activado)</h4>
-<ul type="circle" style="text-align: left; margin-left: 0; padding-left: 20px; line-height: 1.6;">
-    <li>Prepara la botella: Córtala por la mitad, invierte la parte superior y apóyala sobre la base vacía.</li>
-    <li>Capa base: Pon algodón o tela en la boquilla para que no salgan materiales.</li>
-    <li>Capas (de abajo arriba): 3 cm de carbón activado, 4 cm de arena fina, 3 cm de grava.</li>
-    <li>Lava el filtro: Pasa agua limpia varias veces hasta que salga clara.</li>
-    <li>Uso: Vierte el agua sucia lentamente y recógela en la base.</li>
-</ul>
+    <center>
+        <img src="img/images (61).jpeg" alt="Purificación de agua">
+    </center>
 
-<h4>Funcionamiento de filtro de carbón activado</h4>
-<video width="300px" height="200px" autoplay loop controls src="img/filtro.mp4" type="video/mp4"></video>
-<p class="importante">
-El acceso a agua limpia es fundamental para una buena calidad de vida.
-</p>
+    <h4 id="casero">Elaboración de un filtro de agua casero</h4>
+    <ul type="circle">
+        <li>Corta una botella plástica por la mitad, invierte la parte superior y colócala sobre la base.</li>
+        <li>Pon algodón o tela limpia en la boquilla para retener los materiales.</li>
+        <li>Agrega capas en este orden: 3 cm de carbón activado, 4 cm de arena fina, 3 cm de grava.</li>
+        <li>Lava el filtro pasando agua limpia varias veces hasta que salga transparente.</li>
+        <li>Vierte el agua sucia lentamente y recoge el agua filtrada en la parte de abajo.</li>
+    </ul>
 
-<h2>Más información</h2>
+    <h4>Funcionamiento del filtro de carbón activado</h4>
+    <center>
+        <video width="320" height="240" controls>
+            <source src="img/a409cde90fba8ffdef830383ca77242d.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </center>
 
-<p>
-Haz clic en el siguiente enlace para buscar más información sobre filtros de agua:
-</p>
+    <p class="importante">
+        El acceso a agua limpia es fundamental para una buena calidad de vida.
+    </p>
 
-<br>
-    <a href="https://www.bbva.mx/educacion-financiera/sustentabilidad/que-es-un-filtro-de-agua.html">Más sobre filtros de agua</a>
+    <h2 id="info">Más información</h2>
+    <p>
+        Haz clic en el siguiente enlace para ampliar conocimientos:
+    </p>
     <br>
+    <a href="https://www.bbva.mx/educacion-financiera/sustentabilidad/que-es-un-filtro-de-agua.html">Más sobre filtros de agua</a>
+    <br><br>
 
 </body>
 </html>
+
